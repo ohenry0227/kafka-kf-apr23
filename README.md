@@ -24,7 +24,7 @@ As shown above all json configs file should be in the main folder.
 3.	Update the json config to our broker. (#vi jackieChanSimConfig.json)
  
 4.	Then run the generator like so:
-         java -jar json-data-generator-1.4.2.jar jackieChanSimConfig.json
+         java -jar json-data-generator-1.4.2.jar jackieChanSimConfig.json.   <br>
 You will see logging in your console showing the events as they are being generated.  The jackieChanSimConfig.json generates events like these:
 	{"timestamp":"2015-05-20T22:21:18.036Z","style":"WUSHU","action":"BLOCK","weapon":"CHAIR","target":"BODY","strength":4.7912}
 	{"timestamp":"2015-05-20T22:21:19.247Z","style":"DRUNKEN_BOXING","action":"PUNCH","weapon":"BROAD_SWORD","target":"ARMS","strength":3.0248}
